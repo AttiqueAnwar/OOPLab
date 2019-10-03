@@ -1,6 +1,6 @@
 # OOPLab
 
-#Lab-01
+# Lab-01
 OOP Java Lab1: Classes and Objects
 Fall 2019 (GCU - DCS)
 Instructors: Muhammad Safyan/Fatima Mushtaq
@@ -76,7 +76,7 @@ Task-1: Basic Introduction to using BlueJ as an IDE - How do we create a class i
 - name: String
 - email: String
 
-#Lab-02
+# Lab-02
 OOP Java Lab2: Object Interaction, Self Reliance, User Input
 Fall 2019 (GCU - DCS)
 Instructors: Muhammad Safyan/Atif Ishaq/Fatima Mushtaq
