@@ -147,7 +147,7 @@ Book:
 11. Call the addContact method in myContactsManager to add that contact
 12. Add three more different Contacts
 13. Search for a contact using the method searchContact and print out their phone number
-    #Lab-03
+# Lab-03
     OOP Java Lab3: File Scanner, ArrayLists
     Fall 2019 (GCU - DCS)
     Instructor: Fatima Mushtaq
