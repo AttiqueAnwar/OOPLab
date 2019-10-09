@@ -1,0 +1,2 @@
+You can compile all file by writting 
+"javac *.java"
