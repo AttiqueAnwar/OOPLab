@@ -2,16 +2,17 @@
 
 # Lab-01
 
-OOP Java Lab1: Classes and Objects
-Fall 2019 (GCU - DCS)
-Instructors: Muhammad Safyan/Fatima Mushtaq
+    OOP Java Lab1: Classes and Objects
+    Fall 2019 (GCU - DCS)
+    Instructors: Muhammad Safyan/Fatima Mushtaq
+     
 Task-1: Basic Introduction to using BlueJ as an IDE - How do we create a class in BlueJ.
 
 - How to add a method to a class?
 - What is a Constructor?
 - Where does the program start to run?
 - Write a simple program called FirstProgram.java that prints the string “Hello World”.
-  Task-2: Classes and Objects Exercise
+Task-2: Classes and Objects Exercise
   Part a) As we have established basic familiarity with using BlueJ. Let’s start with an
   exercise:
 
@@ -39,7 +40,8 @@ Task-1: Basic Introduction to using BlueJ as an IDE - How do we create a class i
 10. Instead of giving four different calls to display() method for each Book instance, use
     an array to store Book instances and write the call to display() method only once. [3
     Points]
-    Part b) Now create a class named ‘Author’ with the following attributes: - Author:
+Part b)
+1. Now create a class named ‘Author’ with the following attributes: - Author:
 
 - name: String
 - email: String
@@ -53,7 +55,9 @@ Task-1: Basic Introduction to using BlueJ as an IDE - How do we create a class i
    Now, go back to the Main class.
 7. Create two different instances of type Author using the argument constructor and
    display it’s values using the display method.
-   Part c) Change class Book.author attribute from String to the Author type as:
+   
+   
+Part c) Change class Book.author attribute from String to the Author type as:
    Book:
 
 - title: String
@@ -79,9 +83,10 @@ Task-1: Basic Introduction to using BlueJ as an IDE - How do we create a class i
 
 # Lab-02
 
-OOP Java Lab2: Object Interaction, Self Reliance, User Input
-Fall 2019 (GCU - DCS)
-Instructors: Muhammad Safyan/Atif Ishaq/Fatima Mushtaq
+    OOP Java Lab2: Object Interaction, Self Reliance, User Input
+    Fall 2019 (GCU - DCS)
+    Instructors: Muhammad Safyan/Atif Ishaq/Fatima Mushtaq
+    
 Task-1: Object Interaction (Continued from Lab-1)
 Part a) From Lab1, recall that class Book and Author are two separate classes. Reuse the code the from the classes and only change class Book.author attribute from
 type String to Author as:
@@ -100,7 +105,7 @@ Book:
    object whose method or constructor is being called. The most common reason for using
    the this keyword is because a field has the same name as a parameter in the method or
    constructor.
-   Task-2: User Interaction: Build a Number Guessing Game. [3 Points]
+Task-2: User Interaction: Build a Number Guessing Game. [3 Points]
    In this task, we will get to use the input scanner to build a game for guessing a
    number, where the computer will generate a random number between 1-100, and the
    user gets 10 guesses to find out what that number is. When the game first starts, it
@@ -117,7 +122,8 @@ Book:
   random number.
 - If they guessed the number right end the loop and tell them they've won.
 - If they used up all 10 guesses end the loop and tell them they've lost.
-  Task-3: Create a Java Program responsible for storing and managing Phone
+
+Task-3: Create a Java Program responsible for storing and managing Phone
   Contacts [5 Points]
   Let’s start by creating a class that's responsible for storing all contact information of a single
   person, it will look something like this:
@@ -166,7 +172,8 @@ Book:
 5) java MainFile
    Do these steps to compile Lab1Solution which has three classes: Author, Book, Main. [1
    Point]
-   Task-2: File Scanner:
+   
+Task-2: File Scanner:
    Another way of accepting runtime input is through files, these files can be plain text files
    that the user creates with a very basic text editor (e.g. notepad on windows or TextEdit
    on macs).
@@ -192,7 +199,8 @@ Book:
    • Count the number of words in that line using the length of the split array
    • Add up all the words in every line read from the file
    • Display the total word count on the screen/console.
-   Task3: Create a Java Program responsible for storing and managing Phone
+   
+Task3: Create a Java Program responsible for storing and managing Phone
    Contacts Using ArrayList (Extension from Lab2) [5 Points]
    Let’s start by creating a class that's responsible for storing all contact information of a single
    person, it will look something like this:
