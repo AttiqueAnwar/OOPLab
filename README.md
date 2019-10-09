@@ -151,7 +151,8 @@ Book:
     OOP Java Lab3: File Scanner, ArrayLists
     Fall 2019 (GCU - DCS)
     Instructor: Fatima Mushtaq
-    Task-1: Instructions to compile multiple java files via cmd prompt
+    
+ Task-1: Instructions to compile multiple java files via cmd prompt
 
 1) To compile multiple source files by name, open a shell on the machine you wish to
    compile on.
