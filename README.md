@@ -158,22 +158,22 @@ Task-3: Create a Java Program responsible for storing and managing Phone
     Fall 2019 (GCU - DCS)
     Instructor: Fatima Mushtaq
     
- Task-1: Instructions to compile multiple java files via cmd prompt
+     Task-1: Instructions to compile multiple java files via cmd prompt
 
-1) To compile multiple source files by name, open a shell on the machine you wish to
+ 1)  To compile multiple source files by name, open a shell on the machine you wish to
    compile on.
-2) Change directory (cd) to the directory that contains the source file(s) (.java) that you
+ 2)  Change directory (cd) to the directory that contains the source file(s) (.java) that you
    want to compile.
-3) Enter the following command (modifying the source names as appropriate)
-4) javac FileOne.java FileTwo.java FileThree.java MainFile.java
+ 3) Enter the following command (modifying the source names as appropriate)
+ 4) javac FileOne.java FileTwo.java FileThree.java MainFile.java
    Or
    javac \*.java
    then run main program as before using:
-5) java MainFile
+ 5) java MainFile
    Do these steps to compile Lab1Solution which has three classes: Author, Book, Main. [1
    Point]
    
-Task-2: File Scanner:
+     Task-2: File Scanner:
    Another way of accepting runtime input is through files, these files can be plain text files
    that the user creates with a very basic text editor (e.g. notepad on windows or TextEdit
    on macs).
@@ -184,10 +184,10 @@ Task-2: File Scanner:
    Scanner fileScanner = new Scanner(file);
    If you would most likely want to load the entire file at once, you can check if the file still
    has more lines using hasNextLine method and then use this loop to read everything:
-   while (fileScanner.hasNextLine()) {
-   String line = input.nextLine();
-   // Use that line to do any calculations, processing, etc ..
-   }
+               while (fileScanner.hasNextLine()) {
+                    String line = input.nextLine();
+                     // Use that line to do any calculations, processing, etc ..
+                    }
    Now write the ‘Word Count’ program:
    In this task, we will get to use the File Scanner (as discussed above), to write a program
    that counts the total number of words in the entire input file provided by the user as a
@@ -238,7 +238,52 @@ Task3: Create a Java Program responsible for storing and managing Phone
 22) Call the addContact method in myContactsManager to add the new contact
 23) Add three more different Contacts
 24) Search for a contact using the method searchContact and print out both the contact’s
+
+# LAB- 04
+          OOP Java Lab4: Iterator, ArrayLists, Collections
+          Fall 2019 (GCU - DCS)
+          Instructor: Muhammad Safyan/Atif Ishaque/Fatima Mushtaq
+   Task-1: Using Iterators with ArrayLists [4 Points]
+ 1) Write a main program that first adds alphabets [A-H] in an ArrayList<String>.
+ 2) Get an iterator over the ArrayList that you declared and print out the contents of it on
+console.
+ 3) Iterate over the ArrayList one more time, this time while iterating change the value of
+each alphabet to have a plus sign e.g. “A” at index 0 of ArrayList should now hold “A+”
+and so the rest of the values should become “B+”, “C+”….. “H+”.
+ 4) Print out the new values using iterator one more time on the console.
+ 5) Now print the values of the ArrayList in the reverse order (Hint: use ListIterator
+previous method)
+For all sub-tasks above, you must use Iterator class methods.
+   Task-2: Collections Class [16 Points] :
+ 1. How to convert an array into a collection? Write a small program that declares a String
+array and initialize the array with five to six values and then convert it to a collection and
+print out the new collections content on to the console. [2 points]
+ 2. How to convert a collection into an array? Write a small program that declares a ArrayList
+of type String. Initialize it with five to six values and then convert it to a String[] array and
+print out the array content on to the console. [2 points]
+ 3. Write a small program for each of the following sub-tasks that demonstrates the use of
+Collections class APIs to achieve the following tasks: [ 10 points]
+   • How to remove a specific element from a collection?
+   • How to reverse a collection?
+   • How to shuffle the elements of a collection?
+   • How to replace an element in a collection?
+   • How to make a collection read-only?
+ 4. Consider the following program; What is the output of the program below and Why?
+   1. import java.util.*;
+   2. public class Main {
+   3. public static void main(String[] args) {
+   4. List list = Arrays.asList("one Two three Four five six one three Four".split(" "));
+   5. System.out.println(list);
+   6. System.out.println("max: " + Collections.max(list));
+   7. System.out.println("min: " + Collections.min(list));
+   8. }
+   9. }
+ 5. In the program in part 4) above, replace the string: "one Two three Four five six one three
+ Four” with their numeric equivalents (e.g. three will become 3) and then split the run the
+ program and discuss what is the change in the program’s output and why?
+ 6. Write a small program that uses a numeric Arraylist and then find the largest and smallest in
+ the List using Collections Class Methods. [2 points]
     Name and phone number on the screen.
-25) Remove a contact using the method removeContact(name)
-26) Search for the contact using same name again to make sure that the contact has
-    been removed.
+ 25) Remove a contact using the method removeContact(name)
+ 26) Search for the contact using same name again to make sure that the contact has
+     been removed.
